@@ -1,9 +1,10 @@
 import React from 'react';
+import Portfolio from './Section/Portfolio';
 
 const Home = () => {
  return (
   <div>
-    home page Reday
+    <Portfolio></Portfolio>
     <img
       alt="reday"
       className="w-full"
