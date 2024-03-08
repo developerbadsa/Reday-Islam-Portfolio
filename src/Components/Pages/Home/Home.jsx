@@ -1,9 +1,11 @@
 import React from 'react';
 import Portfolio from './Section/Portfolio';
+import Banner from './Section/Banner';
 
 const Home = () => {
  return (
   <div>
+    <Banner></Banner>
     <Portfolio></Portfolio>
     <img
       alt="reday"

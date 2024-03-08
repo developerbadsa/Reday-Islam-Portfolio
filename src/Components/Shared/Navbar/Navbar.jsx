@@ -63,7 +63,7 @@ export function StickyNavbar() {
        <Button
         variant="filled"
         size="sm"
-        className="hidden lg:inline-block bg-amber-600"
+        className="hidden lg:inline-block bg-indigo-800"
        >
         <span>Log In</span>
        </Button>
@@ -126,7 +126,7 @@ export function StickyNavbar() {
      </div>
     </Collapse>
    </Navbar>
-   <div className="mx-auto max-w-screen-md py-12">
+   {/* <div className="mx-auto max-w-screen-md py-12">
     <Card className="mb-12 overflow-hidden">
      <img
       alt="nature"
@@ -140,7 +140,7 @@ export function StickyNavbar() {
     <Typography color="gray" className="font-normal">
     Thinker & Dreamer
     </Typography>
-   </div>
+   </div> */}
   </div>
  );
 }
